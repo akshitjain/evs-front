@@ -1,0 +1,19 @@
+.inner-container {
+    top: 0;
+            	background: url('../img/latest-articles.jpg') fixed center center no-repeat;
+    background-size: cover;
+    
+}
+header{
+     height: 0;
+}
+.logo {
+
+    fill: #fff;
+    transform: translate3d(0, 10%, 0);
+    svg{
+            transform: scale(.7);
+    }
+   
+    
+}

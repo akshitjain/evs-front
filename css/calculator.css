@@ -1,0 +1,15 @@
+.inner-container {
+  top: 0;
+  background: url("../img/carbon.jpg") fixed center center no-repeat;
+  background-size: cover; }
+
+header {
+  height: 0; }
+
+.logo {
+  fill: #fff;
+  transform: translate3d(0, 10%, 0); }
+  .logo svg {
+    transform: scale(0.7); }
+
+/*# sourceMappingURL=calculator.css.map */
