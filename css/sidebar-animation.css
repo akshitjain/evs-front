@@ -1,3 +1,14 @@
+.sidebar {
+  left: -20%;
+  overflow: visible; }
+  .sidebar .toggle {
+    position: absolute;
+    left: 100%;
+    width: 7vh;
+    background-color: beige;
+    height: 7vh; }
 
+.sidebar.in {
+  left: 0; }
 
 /*# sourceMappingURL=sidebar-animation.css.map */
