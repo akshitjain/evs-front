@@ -499,8 +499,8 @@ header {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("fonts/icomoon.eot?-ov8kyp");
-  src: url("fonts/icomoon.eot?#iefix-ov8kyp") format("embedded-opentype"), url("fonts/icomoon.woff?-ov8kyp") format("woff"), url("fonts/icomoon.ttf?-ov8kyp") format("truetype"), url("fonts/icomoon.svg?-ov8kyp#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?6ix1mh");
+  src: url("../fonts/icomoon.eot?#iefix6ix1mh") format("embedded-opentype"), url("../fonts/icomoon.woff?6ix1mh") format("woff"), url("../fonts/icomoon.ttf?6ix1mh") format("truetype"), url("../fonts/icomoon.svg?6ix1mh#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
@@ -515,8 +515,8 @@ header {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.icon-list:before {
-  content: "\e9ba"; }
+.icon-menu:before {
+  content: "\e9bd"; }
 
 .sidebar {
   font-family: 'Josefin Sans', sans-serif;
@@ -530,19 +530,13 @@ header {
   .sidebar .logo {
     fill: #fff; }
   .sidebar li:first-child {
-    background-color: black;
+    background-color: transparent !important;
     display: flex;
     width: inherit !important;
     height: inherit !important;
-    font-size: 1.5rem;
+    font-size: 3rem;
     justify-content: space-around;
     color: aliceblue; }
-    .sidebar li:first-child p {
-      padding-left: 1vw;
-      vertical-align: text-top;
-      margin: 0 !important;
-      color: #1ed11e;
-      font-family: 'Josefin Sans', sans-serif; }
   .sidebar li {
     color: #fff;
     margin: auto;

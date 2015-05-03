@@ -7,5 +7,5 @@
 <font-face units-per-em="1024" ascent="960" descent="-64" />
 <missing-glyph horiz-adv-x="1024" />
 <glyph unicode="&#x20;" d="" horiz-adv-x="512" />
-<glyph unicode="&#xe9ba;" d="M0 960h256v-256h-256zM384 896h640v-128h-640zM0 576h256v-256h-256zM384 512h640v-128h-640zM0 192h256v-256h-256zM384 128h640v-128h-640z" />
+<glyph unicode="&#xe9bd;" d="M64 768h896v-192h-896zM64 512h896v-192h-896zM64 256h896v-192h-896z" />
 </font></defs></svg>
