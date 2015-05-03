@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <title>EVSProject</title>
+    <style>
+div.one {
+position: absolute;
+border: 5px solid gray;
+    top: 30px;
+    right: 300px;
+    width: 320px; 
+}
+div.two {
+
+   position: absolute;
+border: 10px solid black;
+    top: 250px;
+    right: 300px;
+    width: 320px;  
+}
+div.three {
+    width: 650px;
+    padding: 10px;
+    border: 5px solid black;
+    margin-right: 500; 
+}
+</style>
+</head>
+<body>
+<div class="three"><iframe src="https://www.google.com/maps/d/embed?mid=zUj1ihMbzw_0.kHjp8iPSZDGc" width="640" height="480"></iframe></div>
+
+<div  class="one">We are providing you with the google maps and the metro route shaded on the map with different colors representing various routes of delhi metro.
+Find your source place in the google maps and the destination place as well and if they are near these lines then should use delhi metro as it is 
+the best optimal mode of transport in terms of least carbon footprint emmision/person as well as least cost and time.</div>
+
+<div class="two">If you can't use metro then proceed further.</div>
+
+        <form action="getimages.php" method="get">
+            Source:- <input type="text" name="fname"><br><br>
+            DESTINATION:- <input type="text" name="lname"><br><br>
+            <input type="hidden" name="type" value = "YES"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
