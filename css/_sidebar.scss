@@ -2,7 +2,39 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-ov8kyp');
+	src:url('fonts/icomoon.eot?#iefix-ov8kyp') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-ov8kyp') format('woff'),
+		url('fonts/icomoon.ttf?-ov8kyp') format('truetype'),
+		url('fonts/icomoon.svg?-ov8kyp#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-list:before {
+	content: "\e9ba";
+}
+
 .sidebar{
+    .logo {
+  fill: #fff;
+}
 font-family: 'Josefin Sans', sans-serif;
     
 font-weight:400;
@@ -12,6 +44,22 @@ font-weight:400;
 	width:20%;
 	height:100%;
 	box-shadow: 2px 0 3px rgba(0, 0, 0, 0.58);
+    li:first-child{
+        background-color: black;
+        display: flex;
+        width: inherit !important;
+        height: inherit !important;
+        font-size:1.5rem;
+        justify-content: space-around;
+        color:aliceblue;
+        p{
+            padding-left:1vw;
+            vertical-align: text-top;
+            margin:0!important;
+            color:#1ed11e;
+        font-family: 'Josefin Sans', sans-serif;
+        }
+    }
 	li{
         a{
             font-family: 'Josefin Sans', sans-serif;
@@ -36,17 +84,15 @@ font-weight:400;
 		display:flex;
 		flex-direction:column;
 		height:40vh;
-		justify-content:center;
         color:black;
+        justify-content: center;
         font-weight: 400;
-		div{
-			background:url('../img/doge.jpg') no-repeat;
-				background-size: 120px 120px;
-			height:120px;
-			width:120px;
-			border-radius:50%;
-			margin:0px auto;
-		}
+        svg{
+            display: block;
+            fill:#fff;
+            width: 50%;
+            margin:0 auto;
+        }
 		}
 
 	li:first-child p:nth-child(2){

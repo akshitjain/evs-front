@@ -7,9 +7,6 @@ header {
   height: 0; }
 
 .logo {
-  fill: #fff;
-  transform: translate3d(0, 10%, 0); }
-  .logo svg {
-    transform: scale(0.7); }
+  fill: #fff; }
 
 /*# sourceMappingURL=stories.css.map */
