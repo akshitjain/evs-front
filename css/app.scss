@@ -1,0 +1,25 @@
+.inner-container{
+    section{
+        padding:5vh 0;
+        .app{
+            width: 80%;
+            margin:0 auto;
+
+        }
+        .app-inner{
+            width:100%;
+            display: flex;
+            justify-content:space-between;
+            .three{
+                width: 59%;
+                iframe{
+                    height:480px;
+                    width:100%;
+                }
+            }
+            form{
+                width: 39%;
+            }
+        }
+    }
+}
